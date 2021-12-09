@@ -426,3 +426,20 @@ color: #737373;
 		flex: 0 1 100%;
 	}
 }
+/*----------------------------------------------------*/
+.page__clients {
+}
+.clients {
+	padding: 50px  0px;
+}
+.clients__container {
+}
+
+.clients__items {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.clients__item {
+
+}
