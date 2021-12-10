@@ -340,20 +340,12 @@ letter-spacing: 0.1px;
 .practice {
 	padding: 125px 0px 80px 0px;
 }
-.page__practice {
-}
-.practice__contaner {
-}
+
 
 .practice__header {
 	margin: 0px 0px 45px 0px;
 }
-.header-block {
-}
-.header-block__title {
-}
-.header-block__sub-title {
-}
+
 .practice__body {
 	margin: 0px -20px -30px;
 	display: flex;
@@ -371,8 +363,7 @@ letter-spacing: 0.1px;
 	height: 100%;
 	background-color: #fff;
 }
-.item-practice {
-}
+
 .item-practice__content {
 	padding: 30px;
 	text-align: left;
@@ -433,8 +424,7 @@ color: #737373;
 	flex: 0 1 100%;
 }
 }
-.page__whoweare {
-}
+
 .whoweare {
 background: #ffffff;
 padding: 80px 0px 130px 0px;
@@ -536,8 +526,7 @@ display: flex;
 margin:0px 0px 30px 0px ;
 
 }
-.item-whoweare {
-}
+
 .item-whoweare__icon {
 margin: 0px 20px 0px 0px ;
 }
@@ -562,12 +551,9 @@ text-overflow: ellipsis;
 letter-spacing: 1.8px;
 }
 /*----------------------------------------------------*/
-.page__clients {
-}
+
 .clients {
 	padding: 50px  0px;
-}
-.clients__container {
 }
 
 .clients__items {
@@ -588,14 +574,6 @@ padding: 10px;
 	.clients {
 		padding: 30px  0px;
 	}
-}
-.page__subscribe {
-}
-.subscribe {
-}
-.subscribe__container {
-}
-._container {
 }
 
 .subscribe {
@@ -690,3 +668,80 @@ color: #FFFFFF;
 		padding: 0px 15px;
 	}
 }
+.getintouch__container {
+	padding:80px  0px ;
+}
+._container {
+}
+.getitouch__header {
+}
+.header-block {
+}
+.header-block__title {
+}
+.header-block__sub-title {
+}
+.getintouch__items {
+	display: flex;
+	justify-content: center;
+	margin: 80px 0px 0px  0px ;
+	padding: 0px 32.5px;
+}
+.getintouch__item {
+	padding: 50px 40px;
+	background: #fff;
+	
+}
+.item-getitouch {
+	text-align: center;
+	margin:30px 0 ;
+}
+.item-getitouch__icon {
+
+}
+.item-getintouch__emails {
+}
+.item-getintouch__email {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 171%;	
+	text-align: center;
+	letter-spacing: 0.2px;
+}
+.item-getintouch__label {
+	font-weight: 800;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.1px;
+}
+.item-getintouch__button {
+	border: 1px solid #ff7b47;
+	min-height: 44px;
+	display: flex;
+	font-weight: 600;
+	justify-content: center;
+	align-items: center;
+	color: #ff7b47;
+	line-height: 142%;
+	padding: 5px 20px;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	border-radius: 5px;
+}
+.item-getintouch__button:hover {
+	border: 1px solid #ff7b47;
+	background-color: #ff7b47;
+	color: #fff;
+}
+
+	.item-getintouch_active {
+		background: #252b42;
+		padding: 80px 15px;
+		color: #fff;
+		margin:  0px 0px;
+	}
+	.item-getintouch_active .item-getintouch__button {
+		border: 1px solid #fff;
+		color: #fff;
+	}
