@@ -685,7 +685,7 @@ color: #FFFFFF;
 	display: flex;
 align-items: center;
 	margin: 80px 0px 0px  0px ;
-	padding: 0px -15px;
+	padding: 0px  15px;
 }
 .getintouch__item {
 flex:0 1 33.333%;
@@ -734,7 +734,9 @@ letter-spacing: 0.1px;
 	background-color: #ff7b47;
 	color: #fff;
 }
-
+.item-getintouch > *:not(:last-child) {
+	margin: 0px 0px 15px 0px;
+}
 	.item-getintouch_active {
 		background: #252b42;
 		padding: 80px 15px;
@@ -744,4 +746,31 @@ letter-spacing: 0.1px;
 	.item-getintouch_active .item-getintouch__button {
 		border: 1px solid #fff;
 		color: #fff;
+	}
+	@media (max-width: 992px) {
+		.getintouch {
+			padding: 50px 0px;
+		}
+		.getintouch__header {
+			margin: 0px 0px 50px 0px;
+		}
+		.item-getintouch_active {
+			padding: 50px 15px;
+		}
+	}
+	@media (max-width: 767px) {
+		.getintouch__header {
+			margin: 0px 0px 30px 0px;
+		}
+	}
+	@media (max-width: 767px) {
+		.getintouch__items {
+			margin: 0;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		.getintouch__item{
+flex:50%;
+
+		}
 	}
