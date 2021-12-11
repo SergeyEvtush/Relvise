@@ -683,18 +683,18 @@ color: #FFFFFF;
 }
 .getintouch__items {
 	display: flex;
-	justify-content: center;
+align-items: center;
 	margin: 80px 0px 0px  0px ;
-	padding: 0px 32.5px;
+	padding: 0px -15px;
 }
 .getintouch__item {
-	padding: 50px 40px;
+flex:0 1 33.333%;
 	background: #fff;
-	
+
 }
 .item-getitouch {
 	text-align: center;
-	margin:30px 0 ;
+	padding:50px 15px ;
 }
 .item-getitouch__icon {
 
