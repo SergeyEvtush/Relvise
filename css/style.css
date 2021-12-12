@@ -671,16 +671,7 @@ color: #FFFFFF;
 .getintouch__container {
 	padding:80px  0px ;
 }
-._container {
-}
-.getitouch__header {
-}
-.header-block {
-}
-.header-block__title {
-}
-.header-block__sub-title {
-}
+
 .getintouch__items {
 	display: flex;
 align-items: center;
@@ -695,11 +686,6 @@ flex:0 1 33.333%;
 .item-getitouch {
 	text-align: center;
 	padding:50px 15px ;
-}
-.item-getitouch__icon {
-
-}
-.item-getintouch__emails {
 }
 .item-getintouch__email {
 	font-weight: 600;
@@ -777,12 +763,6 @@ flex:50%;
 	.page__contact {
 		background: #fff;
 	}
-	.contact {
-	}
-	.contact__container {
-	}
-	._container {
-	}
 	.contact__body {
 		display: flex;
 		justify-content: space-between;
@@ -835,16 +815,12 @@ color: #FFFFFF;
 		color: #ff7b47;
 	
 	}
-	.footer {
-	}
+	
 	.footer__top {
 		background: #17213C;
 		padding:  50px 0px;
 	}
-	.footer__main {
-	}
-	._container {
-	}
+
 	.footer__row {
 		display: flex;
 		justify-content: flex-start;
@@ -863,14 +839,6 @@ letter-spacing: 0.1px;
 color: #FFFFFF;
 padding-bottom: 20px;
 	}
-	.footer__menu {
-	}
-	.menu-footer {
-	}
-	.menu-footer__list {
-	}
-	.menu-footer__item {
-	}
 	.menu-footer__link {
 		font-weight: 600;
 font-size: 14px;
@@ -885,16 +853,6 @@ color: #FFFFFF;
 		line-height: 24px;
 		letter-spacing: 0.2px;
 		color: #FFFFFF;
-	}
-	.contacts-footer {
-	}
-	.contacts-footer__item {
-	}
-	.contacts-footer__item_phone {
-	}
-	.contacts-footer__item_map {
-	}
-	.contacts-footer__item_email {
 	}
 	.footer__bottom {
 		background: #fff;
@@ -916,9 +874,7 @@ color: #737373;
 	padding: 0px 40px;
 	
 	}
-	.social {
-		
-	}
+	
 	.social__item:not(last-child) {
 		padding-right: 20px;
 	}
